@@ -1,0 +1,15 @@
+title: Kwartz Consulting
+description: Insights, tips, and documentation for our clients
+baseurl: ""
+url: "https://xorbh.github.io/kwartz-consulting"
+
+theme: minima
+
+permalink: /:categories/:title/
+
+header_pages:
+  - about.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

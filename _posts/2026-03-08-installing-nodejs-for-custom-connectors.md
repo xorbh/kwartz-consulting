@@ -44,8 +44,11 @@ Run the installer and accept the default settings. No custom configuration is ne
 
 **Prefer a video walkthrough?** These short tutorials cover the full installation process:
 
-- **Windows**: [How to Install Node.js on Windows](https://www.youtube.com/watch?v=lt5D2EWZMN0)
-- **Mac**: [How to Install Node.js on Mac](https://www.youtube.com/watch?v=l53HbzbSwxQ)
+- **Windows**:
+  [![How to Install Node.js on Windows](https://img.youtube.com/vi/lt5D2EWZMN0/hqdefault.jpg)](https://www.youtube.com/watch?v=lt5D2EWZMN0)
+
+- **Mac**:
+  [![How to Install Node.js on Mac](https://img.youtube.com/vi/l53HbzbSwxQ/hqdefault.jpg)](https://www.youtube.com/watch?v=l53HbzbSwxQ)
 
 ### 3. Verify the Installation
 

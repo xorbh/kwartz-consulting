@@ -13,6 +13,21 @@ This guide walks you through setting it up. The whole process takes about 15 min
 
 ---
 
+## Before You Start: Remove the Built-in Gmail Integration
+
+Claude Desktop comes with a built-in Gmail integration. You need to remove it before setting up our custom connector, otherwise they'll conflict with each other.
+
+1. Open **Claude Desktop**
+2. Click the **hamburger menu** (☰) in the top-left corner
+3. Go to **Settings**
+4. Select **Integrations**
+5. Find **Gmail** in the list and click **Disconnect** or **Remove**
+6. Restart Claude Desktop completely (see [How to Restart Claude Desktop](#how-to-restart-claude-desktop) below)
+
+Once the built-in integration is removed, you're ready to set up the custom connector.
+
+---
+
 ## Quick Start
 
 ### 1. Download the Connector
@@ -65,7 +80,7 @@ You need to add this to your Claude Desktop configuration file:
 - **Mac**: Open `~/.config/Claude/claude_desktop_config.json`
 - **Windows**: Open `%APPDATA%\Claude\claude_desktop_config.json`
 
-Paste the configuration, save the file, and **restart Claude Desktop completely** (quit and reopen, don't just close the window).
+Paste the configuration, save the file, and **restart Claude Desktop completely** (see [How to Restart Claude Desktop](#how-to-restart-claude-desktop) below).
 
 ### 6. Verify It's Working
 
@@ -102,6 +117,26 @@ The connector supports **full Gmail search syntax**, so Claude can search using 
 ## Multiple Gmail Accounts
 
 If you need Claude to access more than one Gmail account (e.g., personal and work), this is supported. The setup requires a few extra steps in the terminal — reach out to your Kwartz contact and we'll walk you through it.
+
+---
+
+## How to Restart Claude Desktop
+
+Closing the Claude window doesn't fully shut it down — it keeps running in the background. You need to quit the app completely for configuration changes to take effect.
+
+**Mac:**
+
+1. Right-click the Claude icon in the Dock (or the menu bar if it's running there)
+2. Click **Quit**
+3. Alternatively, with Claude focused, press **Cmd + Q**
+4. Wait a few seconds, then reopen Claude Desktop from your Applications folder or Dock
+
+**Windows:**
+
+1. Look for the Claude icon in the **system tray** (bottom-right corner of your taskbar, near the clock — you may need to click the **^** arrow to see hidden icons)
+2. Right-click the Claude icon and choose **Quit** or **Exit**
+3. Alternatively, open **Task Manager** (Ctrl + Shift + Esc), find **Claude** in the list, right-click it and choose **End task**
+4. Reopen Claude Desktop from the Start menu or desktop shortcut
 
 ---
 

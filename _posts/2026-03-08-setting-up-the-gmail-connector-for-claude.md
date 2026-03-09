@@ -40,9 +40,7 @@ Click the green **Code** button, then **Download ZIP**. Unzip it to a location y
 
 ### 2. Add Your Credentials File
 
-We'll provide you with a `credentials.json` file — this is what connects the tool to Google's API. Place it inside the Gmail connector folder you just unzipped.
-
-If you haven't received this file yet, reach out to your Kwartz contact.
+You need a `credentials.json` file — this is what connects the tool to Google's API. Follow our [guide to downloading Google API credentials](/kwartz-consulting/setup/guides/downloading-google-api-credentials/) to get it, then place it inside the Gmail connector folder you just unzipped.
 
 ### 3. Run the Setup Script
 

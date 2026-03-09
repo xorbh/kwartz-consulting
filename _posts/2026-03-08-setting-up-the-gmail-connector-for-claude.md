@@ -46,9 +46,9 @@ You need a `credentials.json` file — this is what connects the tool to Google'
 
 - **Mac**: Open **Terminal** (search for "Terminal" in Spotlight, or find it in Applications → Utilities), then paste the following command and press Enter:
   ```
-  cd ~/Downloads/gmail-mcp && bash setup.sh
+  cd ~/Downloads/gmail-mcp-master && bash setup.command
   ```
-  If you unzipped the connector to a different location, replace `~/Downloads/gmail-mcp` with the path to your connector folder.
+  If you unzipped the connector to a different location, replace `~/Downloads/gmail-mcp-master` with the path to your connector folder.
 
 - **Windows**: Double-click `setup.bat`. If you recently installed Node.js, you may need to restart your computer first.
 

@@ -10,6 +10,8 @@ permalink: /:categories/:title/
 header_pages:
   - about.md
 
+port: 4444
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
